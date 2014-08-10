@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Jared Law Gee Hwan",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Social Charity Network Analysis",
+    "more": "The CIA unit is currently investigating an illegal gambling group during the recent FIFA 2014 World Cup. \nAs the data analyst of the unit, you are provided with a list of mobile phone call records that cover a ten-day period in 3-12 June 2014.\nIt consists of about 400 unique mobile phone records during this period. The records should provide critical information about the social network structure of the illegal gambling company called Social Charity.\nThe group is led by a leader with a nickname Ghost. \n\nThis diagram is used to characterise the social network structure, focusing on \n(i) characterising the social structure of Social Charity/Ghost as reflected in the calling data\n(ii) identifying any changes in the social structure over the ten-days period. ",
+    "intro": "This diagram is used to characterise the social network structure of a gambling company, Social Charity.\nIt focuses on \n(i) characterising the social structure of Social Charity/Ghost as reflected in the calling data\n(ii) identifying any changes in the social structure over the ten-days period. "
+  },
+  "legend": {
+    "edgeLabel": "Call Direction",
+    "colorLabel": "",
+    "nodeLabel": "Caller ID"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Id",
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
